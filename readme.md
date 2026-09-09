@@ -1073,3 +1073,7 @@ Contributions are welcome! <3
 Made with :heart: and JavaScript.
 
 </details>
+
+---
+
+*StuxAPIs is part of the <img src="https://global.media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
