@@ -1076,4 +1076,4 @@ Made with :heart: and JavaScript.
 
 ---
 
-*StuxAPIs is part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
+*StuxAPIs is part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*

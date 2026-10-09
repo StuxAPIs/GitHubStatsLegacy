@@ -12,6 +12,12 @@ Started at v1.1.7 rather than v1.0.0 — this fork's git history carries
 upstream's own release tags up through v1.1.6, so anything at or below
 that would collide with an existing tag.
 
+## v1.1.9
+
+### Changed
+
+- The logos and icons in the Markdown docs (README and the like) follow GitHub's light or dark theme, using each brand's `logo-light`/`logo-dark` and `icon-light`/`icon-dark` files
+
 ## v1.1.8
 
 ### Security
