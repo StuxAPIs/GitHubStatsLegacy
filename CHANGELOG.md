@@ -11,6 +11,18 @@ Started at v1.1.7 rather than v1.0.0 — this fork's git history carries
 upstream's own release tags up through v1.1.6, so anything at or below
 that would collide with an existing tag.
 
+## v26.11.06-1
+
+### Changed
+
+- CI (`.github/workflows/test.yml`) also runs on pushes to `test`
+- `commit.sh` and `commit.bat` end by saying to push `test` and open a pull request into `master`
+- README (Versioning) and CONTRIBUTING (a new Branches section) describe the `test` branch flow: work and releases happen on `test`, and reach `master` only through a reviewed pull request that needs CI to pass
+
+### Fixed
+
+- `package.json` (and its lockfile) carry this release's SemVer form; the v26.11.06 release had left them at the previous version
+
 ## v26.11.06
 
 ### Changed
