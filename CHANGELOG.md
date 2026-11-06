@@ -5,12 +5,18 @@ All notable changes made in the StuxAPIs fork of GitHub Readme Stats
 fork independently of upstream's own release history. For upstream
 history, see [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Each release's sections follow a fixed order: Added, Changed, Fixed, Removed, Security, Deprecated. This project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Started at v1.1.7 rather than v1.0.0 — this fork's git history carries
 upstream's own release tags up through v1.1.6, so anything at or below
 that would collide with an existing tag.
+
+## v26.11.06
+
+### Changed
+
+- The README says the project is discontinued and replaced by GithubStats (hosted at githubstats.stuxapis.net), instead of "Hosted by stuxapis.net"
+- The changelog intro gives the fixed section order (Added, Changed, Fixed, Removed, Security, Deprecated) instead of citing Keep a Changelog, whose order differs
 
 ## v26.10.23
 
