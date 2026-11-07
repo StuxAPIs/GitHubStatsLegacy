@@ -110,6 +110,12 @@ People _love_ thorough bug reports. I'm not even kidding.
 -   What & why do you want to add the specific feature
 -   Additional context like images, links to resources to implement the feature, etc.
 
+## Branches
+
+- Work on `test`, or on a branch off it. Never push to `master`
+- Changes reach `master` only through a pull request from `test` into `master`, which needs CI to pass and is reviewed and merged by Leo
+- Release commits and tags are made on `test` (`git push origin test --tags`) and take effect when the pull request is merged.
+
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:

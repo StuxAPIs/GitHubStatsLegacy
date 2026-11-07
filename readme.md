@@ -1,9 +1,14 @@
 <div align="center">
   <img src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" width="100px" alt="GitHub Readme Stats" />
   <h1 style="font-size: 28px; margin: 10px 0;">GitHub Readme Stats</h1>
-  <h3 style="font-size: 16px; margin: 4px 0;">Hosted by stuxapis.net</h3>
+  <h3 style="font-size: 16px; margin: 4px 0;">Discontinued: replaced by <a href="https://github.com/StuxAPIs/GithubStats">GithubStats</a></h3>
   <p>Get dynamically generated GitHub stats on your READMEs!</p>
 </div>
+
+> [!WARNING]
+> **Discontinued.** This is StuxAPIs' original GitHub Stats API. It has been replaced by
+> [GithubStats](https://github.com/StuxAPIs/GithubStats) (GitHub Stats Extended), which StuxAPIs hosts at
+> [githubstats.stuxapis.net](https://githubstats.stuxapis.net). This repository is kept for reference.
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats/actions">
@@ -1081,3 +1086,5 @@ Made with :heart: and JavaScript.
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
+Releases are committed and tagged on the `test` branch and reach `master` through a pull request from `test`, which needs CI to pass and is reviewed and merged by Leo; see [Branches](CONTRIBUTING.md#branches).
