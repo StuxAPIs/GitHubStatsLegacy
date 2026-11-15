@@ -110,11 +110,12 @@ People _love_ thorough bug reports. I'm not even kidding.
 -   What & why do you want to add the specific feature
 -   Additional context like images, links to resources to implement the feature, etc.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a branch off it. Never push to `master`
-- Changes reach `master` only through a pull request from `test` into `master`, which needs CI to pass and is reviewed and merged by Leo
-- Release commits and tags are made on `test` (`git push origin test --tags`) and take effect when the pull request is merged.
+- **`master` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged.
+- **Work happens on `test`**, or on a branch off `test` that's merged back into it. Releases are committed and tagged on `test`; `commit.sh` / `commit.bat` refuse to run on `staging` or `master`.
+- **Going live:** push `test` with its tag (`git push origin test --tags`), open a pull request into staging (`gh pr create --base staging --head test`), check staging once it's merged, then open one from staging into master (`gh pr create --base master --head staging`). Both pull requests need CI to pass and are reviewed and merged by Leo.
 
 ## Versioning
 
